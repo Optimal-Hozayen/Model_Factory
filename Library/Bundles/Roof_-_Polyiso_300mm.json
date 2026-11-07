@@ -1,0 +1,147 @@
+{
+  "name": "Roof - Polyiso 300mm",
+  "category": "roof",
+  "description": "Concrete roof (membrane / gypsum fibre / insulation / concrete / gap / gypsum).",
+  "source": "user",
+  "updated": "2026-11-03T00:17:17",
+  "layers": [
+    {
+      "material": {
+        "name": "BicoucheMembrance-6mm",
+        "kind": "opaque",
+        "conductivity": 0.7,
+        "density": 1120.0,
+        "specific_heat": 1460.0,
+        "default_thickness_mm": 6.0,
+        "roughness": "MediumRough",
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.9,
+        "visible_absorptance": 0.9,
+        "r_value": 0.0,
+        "u_factor": 0.0,
+        "shgc": 0.0,
+        "vt": 0.0,
+        "cost": 0.0,
+        "carbon": 0.0,
+        "source": "model"
+      },
+      "thickness_mm": 6.0
+    },
+    {
+      "material": {
+        "name": "gypsum fiber-160mm",
+        "kind": "opaque",
+        "conductivity": 0.16,
+        "density": 1100.0,
+        "specific_heat": 1090.0,
+        "default_thickness_mm": 16.0,
+        "roughness": "Smooth",
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.6,
+        "visible_absorptance": 0.6,
+        "r_value": 0.0,
+        "u_factor": 0.0,
+        "shgc": 0.0,
+        "vt": 0.0,
+        "cost": 0.0,
+        "carbon": 0.0,
+        "source": "model"
+      },
+      "thickness_mm": 16.0
+    },
+    {
+      "material": {
+        "name": "Polyiso",
+        "kind": "opaque",
+        "conductivity": 0.024,
+        "density": 32.0,
+        "specific_heat": 1400.0,
+        "default_thickness_mm": 100,
+        "roughness": "MediumSmooth",
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.7,
+        "visible_absorptance": 0.7,
+        "r_value": 0.0,
+        "u_factor": 0.0,
+        "shgc": 0.0,
+        "vt": 0.0,
+        "cost": 28.0,
+        "carbon": 6.8,
+        "source": "default"
+      },
+      "thickness_mm": 300
+    },
+    {
+      "material": {
+        "name": "Concrete-240mm",
+        "kind": "opaque",
+        "conductivity": 1.95,
+        "density": 2240.0,
+        "specific_heat": 900.0,
+        "default_thickness_mm": 240.0,
+        "roughness": "MediumRough",
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.7,
+        "visible_absorptance": 0.7,
+        "r_value": 0.0,
+        "u_factor": 0.0,
+        "shgc": 0.0,
+        "vt": 0.0,
+        "cost": 0.0,
+        "carbon": 0.0,
+        "source": "model"
+      },
+      "thickness_mm": 240.0
+    },
+    {
+      "material": {
+        "name": "Ceiling gap",
+        "kind": "airgap",
+        "conductivity": 0.0,
+        "density": 0.0,
+        "specific_heat": 0.0,
+        "default_thickness_mm": 100.0,
+        "roughness": "MediumRough",
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.7,
+        "visible_absorptance": 0.7,
+        "r_value": 0.2,
+        "u_factor": 0.0,
+        "shgc": 0.0,
+        "vt": 0.0,
+        "cost": 0.0,
+        "carbon": 0.0,
+        "source": "model"
+      },
+      "thickness_mm": 0.0
+    },
+    {
+      "material": {
+        "name": "gypsum board-12mm",
+        "kind": "opaque",
+        "conductivity": 0.16,
+        "density": 800.0,
+        "specific_heat": 1090.0,
+        "default_thickness_mm": 12.0,
+        "roughness": "Smooth",
+        "thermal_absorptance": 0.9,
+        "solar_absorptance": 0.7,
+        "visible_absorptance": 0.7,
+        "r_value": 0.0,
+        "u_factor": 0.0,
+        "shgc": 0.0,
+        "vt": 0.0,
+        "cost": 0.0,
+        "carbon": 0.0,
+        "source": "model"
+      },
+      "thickness_mm": 12.0
+    }
+  ],
+  "summary": {
+    "u_layers_W_m2K": 0.07688375767253433,
+    "u_with_films_W_m2K": 0.0760650146905784,
+    "r_layers_m2K_W": 13.006648351648352,
+    "thickness_mm": 574.0
+  }
+}
